@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,body{height: 100%;}
+
+
+header{
+    background-color: #7be887;
+    padding: 10px 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img1{
+    width: 49px;
+    height: 49px;
+    border-radius: 20px;
+}
+
+.info-heder{
+    color: #066699;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    
+}
+
+.iconess{
+margin-left: 10px;
+}
+
+
+.logo{
+    display: flex;
+}
+.info-heder,svg{
+    margin: 0 10;
+}
+
+
+.main{
+    display: flex;
+    flex-wrap: wrap;     
+    height: 100%; 
+}
+
+.sidebar{
+    width: 20%;
+    background-color: white;
+    height: 100%;
+}
+
+.content{
+    width: 80%;
+    background-color: gray; 
+    padding: 20px;
+}
+
+h3{
+    color: #066699;
+    font-size: 20px;
+}
+
+.sidebar,a{
+    display: block;
+    text-decoration: none;
+    color: #34344e;
+    cursor: pointer;
+}
+
+a:hover{
+    background-color: #89a7b1;
+}
+
+.titulo-principal{
+    background-color: beige;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.titulo-principal,h2{
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.titulo-principal,p{
+    font-size: 14px;
+}
+
+.titulo-principal,svg{
+    color: #34344e;
+}
+
+
+.box-info{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.box-info,.box{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    color: antiquewhite;
+    padding: 20px;
+    
+
+}
+
+
+   

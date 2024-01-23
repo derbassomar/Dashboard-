@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+      <title>Dashboard </title>
+
+      <link rel="stylesheet" href="Dashboard .css">
+      <script src="https://kit.fontawesome.com/c8e42a35a5.js" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+  <header>
+<div class="info-heder">
+
+    <div class="logo">
+        <h3>Dashboard Moderno </h3>
+
+        <div class="iconess">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-envelope"></i>
+        </div>
+    </div>
+</div>
+
+<div class="info-heder" style="align-items: center;">
+    <i class="fa-solid fa-bell"></i>
+    <img src="icone de computador.png" alt="img1" class="img1">
+</div>
+  </header>
+
+
+  <section class="main">
+    <nav class="sidebar">
+        <h3>HOME</h3>
+        <a href="#"><i class="fa-solid fa-bars"></i></a>
+
+        <a href="#"><i class="fa-solid fa-file"></i>Relatorios</a>
+        <a href="#"><i class="fa-solid fa-circle-user"></i>usuario</a>
+        <a href="#"><i class="fa-solid fa-diagram-project"></i>projetos</a>
+        <a href="#"><i class="fa-regular fa-calendar"></i>data de entrga</a>
+        <br>
+        <hr>
+        <h3>Area do aluno</h3>
+        <a href="#"><i class="fa-solid fa-chart-simple"></i>Desenpenho</a> 
+        <a href="#"><i class="fa-solid fa-book"></i>Aulas</a>
+        <a href="#"><i class="fa-solid fa-diagram-project"></i>Estagio</a>
+        <a href="#"><i class="fa-regular fa-calendar"></i>Povas</a>
+        <br>
+        <hr>
+        <h3>Contato</h3>
+        <a href="#"><i class="fa-solid fa-id-card"></i>Digite seu Nome</a>
+        <a href="#"><i class="fa-solid fa-square-envelope"></i>Digite seu E-mail</a>
+        <a href="#"><i class="fa-solid fa-mobile"></i>Celular</a>
+        <a href="#"><i class="fa-solid fa-file-arrow-down"></i>Baixe o manual do aluno</a>
+        <br>
+        <hr>
+        </div>
+    </nav>
+    <div class="content">
+            
+        <div class="titulo-principal">
+          <h2>conteudo pricipal</h2>
+            <br>
+            <hr>
+            <br>
+            <p><i class="fa-solid fa-house"></i>/ desempenho academico</p>
+        </div>
+
+        <div class="box-info">
+         
+          <div class="box">
+            <div class="box-texto" style="background-color: greenyellow;">
+              <h3>total de aulas</h3>
+              <p>100</p>
+            </div>
+            
+          </div>
+          
+
+          <div class="box" style="background-color: red;">
+            <div class="box-texto">
+              <h3>minino de faltas permitida</h3>
+              <p>20%</p>
+            </div>
+            
+          </div>
+
+          <div class="box" style="background-color: orangered;">
+            <div class="box-texto">
+              <h3>materias</h3>
+              <p>30</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="grafico">
+          <canvas id="myChart"></canvas>
+        </div>
+        </div>
+        </div>
+      </div>
+
+      
+        
+  </section>
+  <script src="Dashboard .js"></script>
+</body>
+
+</html>
